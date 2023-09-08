@@ -1,31 +1,42 @@
+<!DOCTYPE html>
 <html>
-    <head>
-       <style>
-        div{
-            height:40%;
-            width:120%;
-            background-color:black;
-            text-align: center;
-            margin-left: 0px;
-            border-radius:20px;
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
         }
-        a
-        {
+
+        .navbar {
+            background-color: purple;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
             text-decoration: none;
         }
-        b
-        {
-            color:white;
+
+        .navbar a:hover {
+            background-color: #333;
         }
-       </style> 
-    </head>
-    <body>
-        <div>
-        <a href="about.html" target="frame"><b>About</b><br><br></a>
-        <a href="academics.html" target="frame"><b>Programs</b><br><br></a>
-        <a href="location.html" target="frame"><b>Location</b><br><br></a>
-        <a href="gallery.html" target="frame"><b>Sceneries</b><br><br></a>
-        <a href="addmission.html" target="frame"><b>Admissions</b><br></a>
-        </div>
-    </body>
+
+      
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="about.html" target="frame">About</a>
+        <a href="academics.html" target="frame">Programs</a>
+        <a href="location.html" target="frame">Location</a>
+        <a href="gallery.html" target="frame">Sceneries</a>
+        <a href="addmission.html" target="frame">Admissions</a>
+    </div>
+</body>
 </html>
